@@ -6,20 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hello World | mrcao</title>
+  <title>mrcao</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="简要描述：   根据路口id查询配时方案接口  请求URL：   http://xx.com/Plans/queryPlans  请求方式：  POST   参数：     参数名 必选 类型 说明    userName 是 string 用户名   junction_id 是 string 路口id    返回示例 12345678910111213141516&amp;#123;    &amp;quot;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/08/27/hello-world/index.html">
+<meta property="og:title" content="mrcao">
+<meta property="og:url" content="http://yoursite.com/2019/08/29/测试/index.html">
 <meta property="og:site_name" content="mrcao">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="简要描述：   根据路口id查询配时方案接口  请求URL：   http://xx.com/Plans/queryPlans  请求方式：  POST   参数：     参数名 必选 类型 说明    userName 是 string 用户名   junction_id 是 string 路口id    返回示例 12345678910111213141516&amp;#123;    &amp;quot;">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-04-07T09:35:40.000Z">
+<meta property="og:updated_time" content="2019-08-29T03:46:42.961Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="mrcao">
+<meta name="twitter:description" content="简要描述：   根据路口id查询配时方案接口  请求URL：   http://xx.com/Plans/queryPlans  请求方式：  POST   参数：     参数名 必选 类型 说明    userName 是 string 用户名   junction_id 是 string 路口id    返回示例 12345678910111213141516&amp;#123;    &amp;quot;">
   
     <link rel="alternative" href="/atom.xml" title="mrcao" type="application/atom+xml">
   
@@ -176,48 +176,87 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-测试" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
-      <header class="article-header">
-  
-  
-    <h1 class="article-title" itemprop="name">
-      Hello World
-    </h1>
-  
-
-
-  
-  
-        
-        <span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
-              <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
-        </span>
-
-<a href="/2019/08/27/hello-world/" class="archive-article-date">
-        <time datetime="2019-08-27T08:55:24.982Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-27</time>
-</a>
-
-  
-  
-  </header>
-  
   <div class="article-entry" itemprop="articleBody">
     
-    <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+    <p><strong>简要描述：</strong> </p>
+<ul>
+<li>根据路口id查询配时方案接口</li>
+</ul>
+<p><strong>请求URL：</strong> </p>
+<ul>
+<li><code>http://xx.com/Plans/queryPlans</code></li>
+</ul>
+<p><strong>请求方式：</strong></p>
+<ul>
+<li>POST </li>
+</ul>
+<p><strong>参数：</strong> </p>
+<table>
+<thead>
+<tr>
+<th align="left">参数名</th>
+<th align="left">必选</th>
+<th align="left">类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">userName</td>
+<td align="left">是</td>
+<td align="left">string</td>
+<td>用户名</td>
+</tr>
+<tr>
+<td align="left">junction_id</td>
+<td align="left">是</td>
+<td align="left">string</td>
+<td>路口id</td>
+</tr>
+</tbody></table>
+<p> <strong>返回示例</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;msg&quot;: &quot;成功&quot;,</span><br><span class="line">    &quot;returnCode&quot;: 0,</span><br><span class="line">    &quot;data&quot;: [</span><br><span class="line">        &#123;</span><br><span class="line">            &quot;irn&quot;: 2,</span><br><span class="line">            &quot;id&quot;: &quot;1&quot;,</span><br><span class="line">            &quot;junction_id&quot;: &quot;1&quot;,</span><br><span class="line">            &quot;name&quot;: &quot;王府井南口方案一&quot;,</span><br><span class="line">            &quot;cycle_time&quot;: 120,</span><br><span class="line">            &quot;offset&quot;: 10,</span><br><span class="line">            &quot;cord_stage_id&quot;: 0,</span><br><span class="line">			&quot;num_step&quot;: 0</span><br><span class="line">        &#125;</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p> <strong>返回参数说明</strong> </p>
+<table>
+<thead>
+<tr>
+<th align="left">参数名</th>
+<th align="left">类型</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">cycle_time</td>
+<td align="left">int</td>
+<td>周期时间</td>
+</tr>
+<tr>
+<td align="left">offset</td>
+<td align="left">int</td>
+<td>相位差</td>
+</tr>
+<tr>
+<td align="left">cord_stage_id</td>
+<td align="left">int</td>
+<td>主阶段</td>
+</tr>
+<tr>
+<td align="left">num_step</td>
+<td align="left">int</td>
+<td>最大步</td>
+</tr>
+<tr>
+<td align="left"><strong>备注</strong></td>
+<td align="left"></td>
+<td></td>
+</tr>
+</tbody></table>
+<ul>
+<li>更多返回错误代码请看首页的错误代码描述</li>
+</ul>
 
     
 
@@ -264,7 +303,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://yoursite.com/2019/08/27/hello-world/" title="Hello World" target="_blank">http://yoursite.com/2019/08/27/hello-world/</a>
+          <a href="http://yoursite.com/2019/08/29/测试/" title="" target="_blank">http://yoursite.com/2019/08/29/测试/</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -328,7 +367,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/27/hello-world/" alt="微信分享二维码"> -->
+     <!-- <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/29/测试/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -343,15 +382,11 @@
 
 <nav id="article-nav">
   
-    <a href="/2019/08/29/测试/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
+    <a href="/2019/08/27/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 

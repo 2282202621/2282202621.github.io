@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title></title>
+    <url>%2F2019%2F08%2F29%2F%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[简要描述： 根据路口id查询配时方案接口 请求URL： http://xx.com/Plans/queryPlans 请求方式： POST 参数： 参数名 必选 类型 说明 userName 是 string 用户名 junction_id 是 string 路口id 返回示例 12345678910111213141516&#123; &quot;msg&quot;: &quot;成功&quot;, &quot;returnCode&quot;: 0, &quot;data&quot;: [ &#123; &quot;irn&quot;: 2, &quot;id&quot;: &quot;1&quot;, &quot;junction_id&quot;: &quot;1&quot;, &quot;name&quot;: &quot;王府井南口方案一&quot;, &quot;cycle_time&quot;: 120, &quot;offset&quot;: 10, &quot;cord_stage_id&quot;: 0, &quot;num_step&quot;: 0 &#125; ]&#125; 返回参数说明 参数名 类型 说明 cycle_time int 周期时间 offset int 相位差 cord_stage_id int 主阶段 num_step int 最大步 备注 更多返回错误代码请看首页的错误代码描述]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F08%2F27%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
